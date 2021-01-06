@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    projectName = 'geofire'
+    projectDesc = 'GeoFire for Android Applications'
+
+    githubUrl = 'https://github.com/firebase/geofire-android'
+
+    mavenGroup = 'com.firebase'
+    mavenArtifactId = 'geofire-android'
+    mavenVersion = '3.1.0'
+
+    bintrayOrg = 'geofire'
+}

@@ -1,0 +1,11 @@
+platform :ios, '10.0'
+target 'FirebaseUI-demo-swift' do
+  use_frameworks!
+
+  pod 'FirebaseUI', :path => '../../'
+
+  target 'FirebaseUI-demo-swiftTests' do
+    inherit! :search_paths
+  end
+
+end

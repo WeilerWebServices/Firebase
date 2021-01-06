@@ -1,0 +1,10 @@
+target 'FDLBuilderTestAppObjC' do
+  platform :ios, '10.0'
+  use_frameworks!
+
+  pod 'FirebaseCore', :path => '../../../'
+  pod 'FirebaseCoreDiagnostics', :path => '../../../'
+  pod 'GoogleDataTransport', :path => '../../../'
+  pod 'GoogleUtilities', :path => '../../../'
+  pod 'FirebaseDynamicLinks', :path => '../../../'
+end

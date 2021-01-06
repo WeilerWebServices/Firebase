@@ -1,0 +1,30 @@
+[debug] [2019-11-15T10:59:06.892Z] ----------------------------------------------------------------------
+[debug] [2019-11-15T10:59:06.893Z] Command:       /usr/local/bin/firebase /Users/njweiler192/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2019-11-15T10:59:06.894Z] CLI Version:   7.7.0
+[debug] [2019-11-15T10:59:06.894Z] Platform:      darwin
+[debug] [2019-11-15T10:59:06.894Z] Node Version:  v10.15.3
+[debug] [2019-11-15T10:59:06.898Z] Time:          Fri Nov 15 2019 05:59:06 GMT-0500 (Eastern Standard Time)
+[debug] [2019-11-15T10:59:06.898Z] ----------------------------------------------------------------------
+[debug] [2019-11-15T10:59:06.898Z] 
+[debug] [2019-11-15T10:59:06.904Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-15T10:59:06.904Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/njweiler192/Applications/GitHub/Firebase/Project/WHL717 Game
+
+[debug] [2019-11-15T10:59:23.650Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:66:28)
+    at Interface._setRawMode (readline.js:251:16)
+    at Interface.close (readline.js:376:10)
+    at ReadStream.ontermend (readline.js:164:10)
+    at ReadStream.emit (events.js:194:15)
+    at ReadStream.EventEmitter.emit (domain.js:441:20)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)

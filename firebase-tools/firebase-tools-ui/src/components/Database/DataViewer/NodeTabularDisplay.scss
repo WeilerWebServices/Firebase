@@ -1,0 +1,14 @@
+@import '../../common/color';
+
+.NodeTabularDisplay {
+  overflow-x: auto;
+  width: 100%;
+
+  .NodeTabularDisplay__key {
+    background-color: $COLOR_BACKGROUND_KEY;
+    border-radius: 4px;
+    color: $COLOR_TEXT_SECONDARY;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0 4px;
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "FirebaseUI for iOS",
+    "parent": "firebaseui",
+    "type": "library",
+
+    "platforms": [
+      "iOS"
+    ],
+
+    "content": "README.md",
+
+    // Other markdown pages that should be rendered nicely
+    "pages" : {
+        "Auth/README.md": "Authentication",
+        "Database/README.md": "Realtime Database",
+        "Storage/README.md": "Cloud Storage",
+        "Firestore/README.md": "Cloud Firestore"
+    },
+
+    // Related projects on Github, in the format $owner/$repo[/$subproject]
+    // where subproject is optional.
+    "related": [
+      "firebase/firebaseui-android",
+      "firebase/firebaseui-web"
+    ],
+
+    "tags": [
+      "firebase-auth",
+      "firebase-database",
+      "firebase-firestore",
+      "firebase-storage"
+    ]
+  }
